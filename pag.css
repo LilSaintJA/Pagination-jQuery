@@ -1,0 +1,36 @@
+.page {
+    width: 960px;
+    margin: 0 auto;
+}
+.list-of-posts {
+    /*    min-height: 700px;*/
+}
+
+.pagination li {
+    list-style-type: none;
+    float: left;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #FFF;
+    background-color: cadetblue;
+    color: #FFF;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pagination li:hover {
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000
+}
+
+.pagination ul {
+    border: 0;
+    padding: 0;
+}
+
+.active {
+    background-color: #fff !important;
+    border: 1px solid #000 !important;
+    color: #000 !important;
+}
